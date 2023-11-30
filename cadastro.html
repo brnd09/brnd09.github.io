@@ -9,21 +9,12 @@
     href="https://encrypted-tbn2.gstatic.com/faviconV2?url=https://fortes.ind.br&client=VFE&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL&nfrp=2"
     type="forteslogo">
   <title>Fortes Engenharia</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="cadastro.css">
 </head>
 
 <body>
   <header>
-    <div class="uniq">
-      <a href="login.html">
-        <button id="login" type="submit">Login</button>
-      </a>
-      <input type="text" placeholder="Digite sua pesquisa...">
-      <button type="submit">
-        <img id="lupa" src="https://cdn-icons-png.flaticon.com/512/49/49116.png" alt="">
-      </button>
-    </div>
-    <h1>Bem-vindo à Fortes Engenharia&#174</h1>
+    <h1>Bem-vindo à Fortes Engenharia</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -36,13 +27,34 @@
   </header>
 
   <main>
-    <section id="welcome">
+    <section id="cadastro-form">
+      <div class="divcas"
+      <form action="#" method="post">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+        <br>
+        <br>
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula" required>
+        <br>
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <br>
+        <label for="id-card">ID-Cargo:</label>
+        <input type="text" id="id-card" name="id-card" required>
+        <br>
+        <br>
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" name="cargo" required>
+        <br>
+        <br>
+        <button type="submit">Cadastrar</button>
+      </form>
     </section>
-
-    <section id="logo">
-      <img src="https://fortes.ind.br/wp-content/uploads/2022/08/FORTES_LOGOMARCA_moldura-e1660776738611.png"
-        alt="Fortes Logo">
-    </section>
+    </div>
+    
   </main>
 
   <footer>

@@ -1,0 +1,303 @@
+/* Estilo para a classe dropdown-content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para os links dentro de dropdown-content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo para .clickable-buttons */
+.clickable-buttons {
+  background-color: #white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #333;
+  padding: 20px;
+  width: 300px;
+  margin: 50px auto;
+  /* Centraliza verticalmente e centraliza horizontalmente */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para os botões dentro de clickable-buttons */
+.clickable-buttons button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-buttons button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo geral */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  width: 99%;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin: 0%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#logo img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.uniq {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  background-color: #333;
+  border-radius: 20px;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 11px;
+}
+
+.uniq input[type="text"] {
+  color: #000000;
+  height: 22px;
+  width: 140px;
+  padding: 6px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.uniq button {
+  background-color: #3498db;
+  color: rgb(0, 0, 0);
+  border: 1px;
+  border-color: black;
+  padding: 10px 20px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+#lupa {
+  width: 11px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+button#b2 {
+  width: 10%;
+}
+
+/* Estilo para a classe dropdown */
+.dropdown button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para a classe obras dentro de dropdown */
+.dropdown.obras {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.dropdown.obras button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  left: 15%;
+}
+
+.dropdown.obras button:hover {
+  background-color: #2980b9;
+}
+
+table {
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  border-radius: 8px;
+
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.divcas {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #333;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin: 20px auto;
+}
+
+/* Estilo para a tabela */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+/* Estilo para cabeçalho da tabela */
+th {
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  border: 1px solid #333;
+}
+
+/* Estilo para células da tabela */
+td {
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+/* Estilo alternado para linhas da tabela */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para a seção cadastro-form */
+#cadastro-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para a div divcas dentro de cadastro-form */
+#cadastro-form .divcas {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #333;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens no centro horizontalmente */
+  justify-content: center;
+}
+
+/* Estilo para as labels dentro de divcas */
+.divcas label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Estilo para os botões dentro de divcas */
+.divcas button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 10px; /* Adiciona espaçamento entre a caixa de texto e os botões */
+}
+
+.divcas button:hover {
+  background-color: #2980b9;
+}
